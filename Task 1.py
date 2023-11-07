@@ -28,7 +28,9 @@ class Person:
         self.adress = new_adress
         print("Адресу проживання оновлено.")
 
-
+    def update_city(self, new_city):
+        self.city = new_city
+        print("Місто оновлено.")
 
 
 
