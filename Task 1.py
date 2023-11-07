@@ -11,3 +11,13 @@ class Person:
         self.city = city
         self.country = country
         self.adress = adress
+
+    def display_info(self):
+        print("ПІБ: ", self.full_name)
+        print("Дата народження: ", self.birth_date)
+        print("Контактний телефон: ", self.contact_phone)
+        print("Місто: ", self.city)
+        print("Країна: ", self.country)
+        print("Домашня адреса: ", self.home_address)
+
+
