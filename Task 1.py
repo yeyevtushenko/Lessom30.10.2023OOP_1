@@ -14,15 +14,21 @@ class Person:
 
     def display_info(self):
         print("ПІБ: ", self.full_name)
-        print("Дата народження: ", self.birth_date)
-        print("Контактний телефон: ", self.contact_phone)
+        print("Дата народження: ", self.date_of_birth)
+        print("Контактний телефон: ", self.phone_number)
         print("Місто: ", self.city)
         print("Країна: ", self.country)
-        print("Домашня адреса: ", self.home_address)
+        print("Домашня адреса: ", self.address)
 
     def update_phone_number(self, new_phone_number):
         self.phone_number = new_phone_number
         print("Контактний телефон оновлено.")
+
+    def update_adress(self, new_adress):
+        self.adress = new_adress
+        print("Адресу проживання оновлено.")
+
+
 
 
 
