@@ -13,3 +13,13 @@ class Country:
         self.phone_code = phone_code
         self.capital = capital
         self.cities = cities
+
+    def display_info(self):
+        print("Назва країни: ", self.name)
+        print("Континент: ", self.continent)
+        print("Кількість жителів: ", self.population)
+        print("Телефонний код країни: ", self.phone_code)
+        print("Столиця: ", self.capital)
+        print("Міста країни:")
+        for city in self.cities:
+            print("  -", city)
