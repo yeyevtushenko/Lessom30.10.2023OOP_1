@@ -31,3 +31,9 @@ class Country:
     def add_city(self, new_city):
         self.cities.append(new_city)
         print(f"Додано нове місто: {new_city}")
+
+country = Country("Україна", "Європа", 38000000, "+380", "Київ", ["Львів", "Одеса", "Харків", "Миколаїв"])
+
+
+print("Інформація про країну:")
+country.display_info()
