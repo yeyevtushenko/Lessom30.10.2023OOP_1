@@ -24,13 +24,12 @@ class Person:
         self.phone_number = new_phone_number
         print("Контактний телефон оновлено.")
 
-    def update_adress(self, new_adress):
-        self.adress = new_adress
+    def update_adress(self, new_city, new_country, new_address):
+        self.cit = new_city
+        self.country = new_country
+        self.adress = new_address
         print("Адресу проживання оновлено.")
 
-    def update_city(self, new_city):
-        self.city = new_city
-        print("Місто оновлено.")
 
 
 
