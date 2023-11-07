@@ -23,3 +23,11 @@ class Country:
         print("Міста країни:")
         for city in self.cities:
             print("  -", city)
+
+    def update_population(self, new_population):
+        self.population = new_population
+        print("Кількість жителів країни оновлено.")
+
+    def add_city(self, new_city):
+        self.cities.append(new_city)
+        print(f"Додано нове місто: {new_city}")
