@@ -3,6 +3,7 @@
 # Реалізуйте методи класу для введення-виведення даних та інших операцій.
 print("Завдання №1")
 
+
 class Person:
     def __init__(self, full_name, date_of_birth, phone_number, city, country, adress):
         self.full_name = full_name
@@ -18,7 +19,7 @@ class Person:
         print("Контактний телефон: ", self.phone_number)
         print("Місто: ", self.city)
         print("Країна: ", self.country)
-        print("Домашня адреса: ", self.address)
+        print("Домашня адреса: ", self.adress)
 
     def update_phone_number(self, new_phone_number):
         self.phone_number = new_phone_number
@@ -31,6 +32,13 @@ class Person:
         print("Адресу проживання оновлено.")
 
 
+person = Person("Олексій", "06.12.2006", "+380765870090", "Киів", "Україна", "вул. Академіка Янгеля 16/2")
 
+print("Інформація про людину:")
+person.display_info()
 
+person.update_phone_number("+987654321")
 
+person.update_adress("Львів", "Україна", "вул. Шевченка, 5")
+print("\nОновлена інформація про людину:")
+person.display_info()
