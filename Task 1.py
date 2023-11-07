@@ -20,8 +20,10 @@ class Person:
         print("Країна: ", self.country)
         print("Домашня адреса: ", self.home_address)
 
-    def update_phone_number(self, new_contact_phone):
-        self.contact_phone = new_contact_phone
+    def update_phone_number(self, new_phone_number):
+        self.phone_number = new_phone_number
         print("Контактний телефон оновлено.")
+
+
 
 
