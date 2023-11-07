@@ -11,3 +11,12 @@ class City:
         self.population = population
         self.postal_code = zipcode
         self.phone_code = phone_code
+
+    def display_info(self):
+        print("Назва міста: ", self.name)
+        print("Регіон: ", self.region)
+        print("Країна: ", self.country)
+        print("Кількість жителів: ", self.population)
+        print("Поштовий індекс: ", self.zipcode)
+        print("Телефонний код: ", self.phone_code)
+
