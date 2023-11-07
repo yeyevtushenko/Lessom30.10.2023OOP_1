@@ -37,3 +37,10 @@ country = Country("Україна", "Європа", 38000000, "+380", "Київ"
 
 print("Інформація про країну:")
 country.display_info()
+
+country.update_population(35000000)
+
+country.add_city("Дніпро")
+
+print("\nОновлена інформація про країну:")
+country.display_info()
